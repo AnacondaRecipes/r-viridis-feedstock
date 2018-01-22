@@ -10,8 +10,8 @@ package:
 source:
   fn: viridis_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/viridis_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/viridis/viridis_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/viridis_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/viridis/viridis_{{ version }}.tar.gz
   sha256: 93d2ded68ed7cec5633c260dbc47051416147aae074f29ebe135cc329250b00e
 
 
